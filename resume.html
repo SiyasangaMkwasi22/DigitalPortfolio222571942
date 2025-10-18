@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />s
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #e0e0e0;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+
+    .container {
+      max-width: 1100px;
+      background: #161b2262;
+      margin: 40px auto;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0, 255, 255, 0.2);
+      padding: 40px;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 2px solid #00d8d6;
+      padding-bottom: 20px;
+    }
+
+    header h1 {
+        font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #00d8d6;
+      font-size:1.3rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 0.95rem;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #9adede;
+    }
+
+    a {
+      color: #00d8d6;
+      text-decoration: none;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #00ffff;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+      font-size: 1.1rem;
+      letter-spacing: 1px;
+    }
+
+    .skills, .projects ul, .experience ul, .education ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    .skills li, .projects li, .experience li, .education li {
+      margin-bottom: 8px;
+    }
+
+    .project-title {
+      font-weight: 600;
+      color: #00d8d6;
+    }
+
+    .job-title, .degree {
+      font-weight: 600;
+      color: #00ffff;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9rem;
+      color: #777;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding: 20px;
+      }
+      header h1 {
+        font-size: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+<nav class="navbar">
+     <div class="nav-logo">
+    <img src="siya.png" alt="App Logo">
+  </div>
+  <ul class="nav-links">
+  <li><a href="index.html" class="filter-link active" data-category="all">Home</a></li>
+  <li><a href="info.html" class="filter-link" data-category="sport">Information</a></li>
+  <li><a href="evedince.html" class="filter-link" data-category="health">Evidence</a></li>
+  <li><a href="resume.html" class="filter-link" data-category="education">Resume</a></li>
+</nav
+<body>
+  <div class="container">
+    <header>
+      <h1>Siyasanga Mkwasi</h1>
+      <h2>Personal Details:</h2>    
+      <p>Id:0406220456080<br>
+         Sex:Female<br>
+      </p>
+      <h2>Contact Details</h2>
+      <p>
+       EMAIL : mkwasisiya@gmail.com<br>
+             : 222571942@mycput.ac.za<br>
+       Phone : 083 620 5239
+        
+      </p>
+    </header>
+
+    <section class="summary">
+      <h2>Career Objective</h2>
+      <p>
+       Motivated IT student seeking an internship position to apply my
+        technical skills and gain practical experience in a dynamic technology
+         environment that fosters professional growth and collaboration.
+      </p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li>
+            <p>
+                <strong>Primary</strong><br>
+               Masiphumelele Primary School (2010-2016)<br>
+               55 Hlehla St, Khayelitsha, 7784
+               <br><br>
+                <strong>High School</strong><br>
+               Centre Of Science And Technology (2017-2021)<br>
+               56 Sinqolamthi St, Khayelitsha, 7784<br>
+               (Matriculated 2021)<br>
+      <strong> Subjects Passed : </strong>    <br>
+               English<br>
+               Mathematics<br>
+               IsiXhosa<br>
+               Physical Sciences<br>
+               Information Technology<br>
+               Life Sciences<br>
+               Life Orientation<br>
+            
+            </p><br><br>
+  <strong><span class="diploma">DIPLOMA: ICT in Applications Development</span> — Cape Peninsula University of Technology</strong><br><br>
+      ( 2022 – Present)<br>
+     <strong> Key Modules </strong> <br><br>
+          Applications Development Practise<br>
+          Applications Development Theory <br>
+          Information Technology Foundations<br>
+          Information Systems<br>
+          Project<br>
+          Project Presentation<br>
+          Project Management<br>
+
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li><strong>Languages:</strong> Java, Python, JavaScript, HTML, CSS</li>
+        <li><strong>Frameworks:</strong> Vue.js, React, Spring Boot, Node.js</li>
+        <li><strong>Databases:</strong> MySQL, Workbench </li>
+        <li><strong>Tools:</strong> Git, VS Code, IntelliJ IDEA, Figma</li>
+    </section>
+
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li>
+          <span class="job-title">Junior Developer Intern</span><br>
+           Company Name: Plum Systems<br>
+           January 2024 - Present
+           <strong>Description</strong> <br>
+          - Contributed to full-stack web app development in an Agile environment.<br>
+          - Debugged backend services and optimized database performance.<br>
+          - Participated in sprint planning and code reviews.
+        </li>
+      </ul>
+    </section>
+
+    <section class="certifications">
+      <h2>Certifications</h2>
+    <p>Linked In Certifications in Evidence Page</p><br>
+    </section>
+
+    <section class="references">
+      <h2>References</h2>
+      <p>
+        Adam Hendricks - Mentor and Teamlead<br>
+        067 343 7120<br>
+        Inam Ngqakomoshe - Fellow Junior Developer<br>
+        083 620 5339<br> 
+    </p>
+    </section>
+
+    <footer>
+   Siyasanga Mkwasi 
+    </footer>
+  </div>
+</body>
+</html>
